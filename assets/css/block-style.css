@@ -1,0 +1,24 @@
+.planist-block {
+    direction: ltr;
+    text-align: left;
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #555;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: default;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.planist-block div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.planist-block svg {
+    max-width: 100px;
+    margin-right: 20px;
+}
